@@ -1,0 +1,451 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Early Bird | Homepage</title>
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="./styles/navbar.css">
+    <link rel="stylesheet" href="./styles/hero.css">
+     <link rel="stylesheet" href="./styles/features.css">
+     <link rel="stylesheet" href="./styles/pricing.css">
+     <link rel="stylesheet" href="./styles/feedbacks.css">
+     <link rel="stylesheet" href="./styles/blog.css">
+     <link rel="stylesheet" href="./styles/footer.css">
+     <link rel="stylesheet" href="./styles/style.css">
+
+     <!-- Boxicons CSS -->
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+<body>
+
+    <!-- Navbar -->
+    <nav>
+        <div class="nav-middle">
+            <a href="#" class="logo">
+                <img src="./images/logo.svg" alt="image">
+            </a>
+            <div class="sidebar">
+                <ul>
+                    <li><a href="#" onclick="sidebarFunc()">Home</a></li>
+                    <li><a href="#features" onclick="sidebarFunc()">Features</a></li>
+                    <li><a href="#pricing" onclick="sidebarFunc()">Pricing</a></li>
+                    <li><a href="#feedbacks" onclick="sidebarFunc()">Feedbacks</a></li>
+                    <li><a href="#blog" onclick="sidebarFunc()">Blog</a></li>
+                </ul>
+                <div class="right">
+                    <a href="./signin.html" target="_blank" onclick="sidebarFunc()">Sign in</a>
+                    <a href="#getstarted" onclick="sidebarFunc()">Get Started</a>
+                </div>
+            </div>
+            <i class='bx bx-grid-alt' id="toggle" onclick="sidebarFunc()"></i>
+        </div>
+    </nav>
+
+    <!-- Hero -->
+    <div class="hero">
+        <center><p class="desc">Stay organized. Stay productive. Stay ahead.</p></center>
+        <center><p class="heading">Get things done with Early Bird</p></center>
+        <center><p class="desc two">Effortlessly manage your tasks with Early Bird. Prioritize, track, and achieve your goals with our intuitive app.</p></center>
+        <div class="links">
+            <a href="#getstarted">Get Early Bird</a>
+            <a href="#pricing">See Our Plans</a>
+        </div>
+        <center>
+            <div class="hero-image">
+                <img src="./images/hero.jpg" alt="image">
+            </div>
+        </center>
+        <center><p class="desc" style="color: black;">Trusted by teams at</p></center>
+        <div class="clients">
+            <img src="./images/clients/1.svg" alt="image">
+            <img src="./images/clients/2.svg" alt="image">
+            <img src="./images/clients/3.svg" alt="image">
+            <img src="./images/clients/4.svg" alt="image">
+        </div>
+    </div>
+
+    <!-- Features 1 -->
+    <section class="block" id="features">
+        <center><p class="heading two">Achieve more every day</p></center>
+        <center><p class="desc two">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec vitae turpis ut elit semper efficitur. Nulla finibus interdum cursus.</p></center>
+
+        <div class="features">
+            <div class="feature">
+                <div>
+                    <img src="./images/features/1.svg" alt="image" class="f-img">
+                    <p class="f-head">Quickly unload and get tasks out of your head.</p>
+                    <p class="desc">Fusce non tincidunt lorem, vel maximus sapien. Pellentesque dolor quam, placerat vel sem ut, molestie accumsan ex.</p>
+                </div>
+                <div class="image">
+                    <img src="./images/features/5.jpg" alt="image" class="under">
+                    <img src="./images/features/6.jpg" alt="image" class="above">
+                </div>
+            </div>
+            <div class="feature">
+                <img src="./images/features/2.svg" alt="image" class="f-img">
+                <p class="f-head">Organize</p>
+                <p class="desc">Maecenas accumsan, velit vitae tempor semper, quam diam laoreet tortor, et eleifend lorem ipsum sed sem.</p>
+            </div>
+            <div class="feature">
+                <img src="./images/features/3.svg" alt="image" class="f-img">
+                <p class="f-head">Prioritize</p>
+                <p class="desc">Nullam sed orci pulvinar, pharetra sem mattis, egestas quam. Integer ultricies velit in accumsan pulvinar.</p>
+            </div>
+            <div class="feature">
+                <img src="./images/features/4.svg" alt="image" class="f-img">
+                <p class="f-head">Focus</p>
+                <p class="desc">Proin et nisl egestas, dapibus lacus non, aliquet purus. Aliquam non felis efficitur est porta posuere.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Features 2 -->
+    <section class="block">
+        <div class="features-two">
+            <div class="heading-three">
+                <div>
+                    <p class="heading two">Unlock more capabilities</p>
+                    <p class="desc two">Cras consequat mattis viverra. Etiam egestas diam vel aliquet egestas. Nam non velit pretium, sollicitudin neque quis, molestie nulla.</p>    
+                </div>
+                <div class="links">
+                    <a href="#getstarted">Get Started</a>
+                </div>
+            </div>
+            <div class="features-blocks">
+                <div class="feat-block">
+                    <div class="image">
+                        <img src="./images/capabilities/1.jpg" alt="image" class="under">
+                    </div>
+                    <div>
+                        <p class="f-head">Connect and Collaborate</p>
+                        <p class="desc">Etiam ornare aliquam velit, eu congue diam vehicula condimentum. Donec sit amet ipsum in arcu blandit molestie.</p>        
+                    </div>
+                </div>
+                <div class="feat-block">
+                    <div class="image">
+                        <img src="./images/capabilities/2.jpg" alt="image" class="under">
+                    </div>
+                    <div>
+                        <p class="f-head">Always Deliver on Time</p>
+                        <p class="desc">Vivamus eu rutrum nunc, nec hendrerit nisi. Vestibulum convallis justo porta, tempus quam ac, porttitor lacus.</p>        
+                    </div>
+                </div>
+                <div class="feat-block">
+                    <div class="image">
+                        <img src="./images/capabilities/3.jpg" alt="image" class="under">
+                    </div>
+                    <div>
+                        <p class="f-head">Gain Insights with Data Analytics</p>
+                        <p class="desc">Aenean varius fringilla pharetra. Aliquam ac dapibus lacus. Duis dapibus arcu sapien, sed tincidunt elit accumsan nec.</p>        
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Pricing -->
+    <section class="block" id="pricing">
+        <center><p class="heading two">Multiple ways to view your tasks</p></center>
+        <center><p class="desc two">In sed orci sit amet ante hendrerit molestie sed non odio. Aliquam erat volutpat. Duis tempus mauris in metus vestibulum vestibulum.</p></center>
+        <div class="pricing">
+            <center>
+                <div class="buttons">
+                    <button class="monthly-btn active">Monthly</button>
+                    <button class="yearly-change-btn">Yearly</button>
+                </div>            
+            </center>
+            <div class="price-grid">
+                <div class="pack">
+                    <div class="pack-above">
+                        <div class="pack-box">
+                            <div class="type">Personal</div>
+                            <p class="price">Free</p>
+                            <a href="#">Get Started</a>
+                        </div>
+                    </div>
+                    <ul>
+                        <li>
+                            <i class='bx bx-check'></i>
+                            <span>Manage up to 3 projects</span>
+                        </li>
+                        <li>
+                            <i class='bx bx-check'></i>
+                            <span>Access basic task management features</span>
+                        </li>
+                        <li>
+                            <i class='bx bx-check'></i>
+                            <span>Limited to 1 user account</span>
+                        </li>
+                        <li>
+                            <i class='bx bx-check'></i>
+                            <span>Email support</span>
+                        </li>
+                    </ul>
+                </div>
+                <div class="pack">
+                    <div class="pack-above">
+                        <div class="pack-box">
+                            <div class="type">Pro</div>
+                            <p class="price">$5.00<span>/month</span></p>
+                            <a href="#">Get Started</a>
+                            <span class="sale">20% off</span>
+                        </div>
+                    </div>
+                    <ul>
+                        <li>
+                            <i class='bx bx-check'></i>
+                            <span>Everything in Personal</span>
+                        </li>
+                        <li>
+                            <i class='bx bx-check'></i>
+                            <span>Unlimited projects and task management</span>
+                        </li>
+                        <li>
+                            <i class='bx bx-check'></i>
+                            <span>Advanced task tracking and prioritization features</span>
+                        </li>
+                        <li>
+                            <i class='bx bx-check'></i>
+                            <span>Collaboration tools for up to 5 team members</span>
+                        </li>
+                        <li>
+                            <i class='bx bx-check'></i>
+                            <span>Priority email support</span>
+                        </li>
+                    </ul>
+                </div>
+                <div class="pack">
+                    <div class="pack-above">
+                        <div class="pack-box">
+                            <div class="type">Team</div>
+                            <p class="price">$8.00<span>/month</span></p>
+                            <a href="#">Get Started</a>
+                            <span class="sale">25% off</span>
+                        </div>
+                    </div>
+                    <ul>
+                        <li>
+                            <i class='bx bx-check'></i>
+                            <span>Everything in Pro</span>
+                        </li>
+                        <li>
+                            <i class='bx bx-check'></i>
+                            <span>Unlimited advanced task management</span>
+                        </li>
+                        <li>
+                            <i class='bx bx-check'></i>
+                            <span>Customizable workflows and reporting</span>
+                        </li>
+                        <li>
+                            <i class='bx bx-check'></i>
+                            <span>Collaboration for unlimited team members</span>
+                        </li>
+                        <li>
+                            <i class='bx bx-check'></i>
+                            <span>Dedicated account manager</span>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>                     
+    </section>
+
+    <!-- Feedbacks -->
+    <section class="block" id="feedbacks">
+        <center><p class="heading two">What our users say</p></center>
+        <div class="price-grid tests">
+            <div class="feed">
+                <div class="user">
+                    <img src="./images/feedbacks/1.jpg" class="avatar" alt="image">
+                    <div>
+                        <p>Mark Johnson</p>
+                        <p>@markjohnson</p>
+                    </div>
+                    <img src="./images/feedbacks/x.svg" alt="image" class="x">
+                </div>
+                <span class="test">"Early Bird has revolutionized the way our team manages tasks. The user-friendly interface and powerful features have significantly boosted our productivity."</span>
+            </div>
+            <div class="feed">
+                <div class="user">
+                    <img src="./images/feedbacks/2.jpg" class="avatar" alt="image">
+                    <div>
+                        <p>Hana Kim</p>
+                        <p>@hanakim</p>
+                    </div>
+                    <img src="./images/feedbacks/x.svg" alt="image" class="x">
+                </div>
+                <span class="test">"I love how Early Bird integrates with all our existing tools. It's streamlined our workflows and made project management a breeze."</span>
+            </div>
+            <div class="feed">
+                <div class="user">
+                    <img src="./images/feedbacks/3.jpg" class="avatar" alt="image">
+                    <div>
+                        <p>John Smith</p>
+                        <p>@johnsmith</p>
+                    </div>
+                    <img src="./images/feedbacks/x.svg" alt="image" class="x">
+                </div>
+                <span class="test">"Early Bird's reliability and performance are outstanding. It has significantly improved our task management and collaboration across the IT department."</span>
+            </div>
+            <div class="feed">
+                <div class="user">
+                    <img src="./images/feedbacks/4.jpg" class="avatar" alt="image">
+                    <div>
+                        <p>Helena Massey</p>
+                        <p>@helenamassey</p>
+                    </div>
+                    <img src="./images/feedbacks/x.svg" alt="image" class="x">
+                </div>
+                <span class="test">"As a freelancer, Early Bird helps me stay organized and on top of multiple projects. I highly recommend it to anyone juggling various tasks."</span>
+            </div>
+            <div class="feed">
+                <div class="user">
+                    <img src="./images/feedbacks/5.jpg" class="avatar" alt="image">
+                    <div>
+                        <p>Kacie Rosales</p>
+                        <p>@kacierosales</p>
+                    </div>
+                    <img src="./images/feedbacks/x.svg" alt="image" class="x">
+                </div>
+                <span class="test">"The intuitive design and customization options in Early Bird make it easy to tailor the app to our specific needs. It's the best task management tool we've used."</span>
+            </div>
+            <div class="feed">
+                <div class="user">
+                    <img src="./images/feedbacks/6.jpg" class="avatar" alt="image">
+                    <div>
+                        <p>Justin Wong</p>
+                        <p>@justinwong</p>
+                    </div>
+                    <img src="./images/feedbacks/x.svg" alt="image" class="x">
+                </div>
+                <span class="test">"Early Bird has been a game-changer for our team. The ability to track progress and collaborate effectively has improved our overall efficiency."</span>
+            </div>
+        </div>
+    </section>
+
+    <!-- Blog -->
+    <div class="block" id="blog">
+        <div class="blog">
+            <div class="heading-three">
+                <div>
+                    <p class="heading two">What's new?</p>
+                    <p class="desc two">Duis tellus nisl, scelerisque a massa eu, varius vulputate metus. Nulla id elementum mi, sit amet posuere odio. Donec vel congue metus.</p>    
+                </div>
+                <div class="links">
+                    <a href="#blog">View Blog</a>
+                </div>
+            </div>
+            <div class="blog-flex">
+                <a href="#" style="color: black;">
+                    <div class="update">
+                        <div class="update-img">
+                            <img src="./images/blog/1.avif" alt="image">
+                        </div>
+                        <div class="blog-data">
+                            <div>
+                                <p class="f-head">How Early Bird Transformed My Student Life: A Productivity Journey</p>
+                                <p class="desc">Sed sollicitudin suscipit magna elementum aliquam. Integer vehicula tortor elit, vel ultricies quam eleifend sed.</p>       
+                            </div>
+                            <div class="blog-flex2">
+                                <p class="blog-type">Stories</p>
+                                <p>July 7, 2024</p>
+                            </div> 
+                        </div>
+                    </div>
+                </a>
+                <a href="#" style="color: black;">
+                    <div class="update">
+                        <div class="update-img">
+                            <img src="./images/blog/2.avif" alt="image">
+                        </div>
+                        <div class="blog-data">
+                            <div>
+                                <p class="f-head">Healthy Habits: How Early Bird Can Help You Establish a Routine</p>
+                                <p class="desc">Suspendisse quis orci non leo lacinia porttitor. Vivamus iaculis erat venenatis, viverra nisi vel, accumsan risus.</p>       
+                            </div>
+                            <div class="blog-flex2">
+                                <p class="blog-type">Guides</p>
+                                <p>July 7, 2024</p>
+                            </div> 
+                        </div>
+                    </div>
+                </a>
+                <a href="#" style="color: black;">
+                    <div class="update">
+                        <div class="update-img">
+                            <img src="./images/blog/3.avif" alt="image">
+                        </div>
+                        <div class="blog-data">
+                            <div>
+                                <p class="f-head">Early Bird's Roadmap: Upcoming Features and Enhancements</p>
+                                <p class="desc">Vivamus consectetur neque ut metus aliquam, ac gravida erat cursus. Phasellus varius purus fermentum rutrum finibus.</p>       
+                            </div>
+                            <div class="blog-flex2">
+                                <p class="blog-type">News</p>
+                                <p>July 7, 2024</p>
+                            </div> 
+                        </div>
+                    </div>
+                </a>
+            </div>
+        </div>
+    </div>
+
+    <!-- Get Started -->
+    <div class="block" id="getstarted">
+        <center><p class="heading two">Get started today</p></center>
+        <center><p class="desc two">Sed non ullamcorper diam, eu rhoncus eros. Aenean gravida lobortis lacinia. Aliquam elementum non nunc ut tempus.</p></center>
+        <div class="links">
+            <a href="#getstarted">Get Early Bird</a>
+            <a href="#pricing">See Our Plans</a>
+        </div>
+        <center>
+            <img src="https://cdn.prod.website-files.com/668364fd0c3b8aef623cf502/669109f22f4b3d9970300ce2_Bird%2002.png" alt="image" class="contact-img">
+        </center>
+    </div>
+
+    <!-- Footer -->
+     <footer>
+        <div class="footer-main">
+            <div>
+                <a href="#" class="logo">
+                    <img src="./images/logo.svg" alt="image">
+                </a>
+                <p class="footer-desc">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                <div class="links footer">
+                    <a href="#getstarted">Get Started</a>
+                </div>
+                <div class="media">
+                    <a href="#"><i class='bx bxl-facebook'></i></a>
+                    <a href="#"><i class='bx bxl-instagram-alt' ></i></a>
+                    <a href="#"><i class='bx bxl-twitter' ></i></a>
+                    <a href="#"><i class='bx bxl-linkedin' ></i></a>
+                    <a href="#"><i class='bx bxl-tiktok' ></i></a>
+                </div>
+            </div>
+            <div class="footer-links">
+                <ul>
+                    <li><h3>Company</h3></li>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">Features</a></li>
+                    <li><a href="#">Pricing</a></li>
+                    <li><a href="#">Feedbacks</a></li>
+                    <li><a href="#">Blog</a></li>
+                </ul>
+                <ul>
+                    <li><h3>Support</h3></li>
+                    <li><a href="#">FAQ</a></li>
+                    <li><a href="#">Contact Us</a></li>
+                    <li><a href="#">Terms of Service</a></li>
+                    <li><a href="#">Privacy Policy</a></li>
+                </ul>
+            </div>
+        </div>
+     </footer>
+
+    <!-- JavaScript -->
+     <script src="script.js"></script>
+</body>
+</html>

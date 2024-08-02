@@ -1,0 +1,39 @@
+.feed {
+    padding: 25px;
+    background-color: #fffdf7; 
+    border-radius: 5px;
+    box-shadow: 2px 2px 26px rgba(20, 20, 20, .05);
+}
+
+.user {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.user div p:nth-child(1) {
+    font-weight: 600;
+}
+
+.user div p:nth-child(2) {
+    color: #757472;
+    font-size: 13px;
+    margin-top: 2px;
+}
+
+.feed .avatar {
+    width: 50px;
+    border-radius: 50%;
+}
+
+.feed .x {
+    margin-left: auto;
+    width: 20px;
+}
+
+.test {
+    color: #141414;
+    display: flex;
+    line-height: 1.6em;
+    margin-top: 15px;
+}

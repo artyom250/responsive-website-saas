@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Crimson+Text:ital,wght@0,400;0,600;0,700;1,400;1,600;1,700&display=swap');
+
+.hero {
+    padding: 150px 50px 60px 50px;
+}
+
+.desc {
+    color: #757472;
+    line-height: 1.5em;
+}
+
+.desc.two {
+    max-width: 490px;
+}
+
+.heading {
+    color: black;
+    font-family: "Crimson Text", serif;
+    font-size: 59px;
+    font-weight: 600;
+    margin: 20px 0px;
+    max-width: 600px;
+    line-height: 1.3em;
+}
+
+.heading.two {
+    font-size: 35px;
+    margin: 0px 0px 10px 0px;
+}
+
+.links {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    margin-top: 30px;
+}
+
+.links a {
+    background-color: #141414;
+    color: white;
+    font-size: 13px;
+    font-weight: 600;
+    padding: 10px 15px;
+    border-radius: 100px;
+    transition: 0.3s;
+}
+
+.links a:hover {
+    transform: scale(1.05);
+}
+
+.links a:nth-child(2) {
+    background: none;
+    border: 1px solid #141414;
+    color: #141414;
+}
+
+.hero-image {
+    display: flex;
+    overflow: hidden;
+    box-shadow: 1px 1px 14px 0 rgba(20, 20, 20, .07), 0 0 0 7px rgba(20, 20, 20, .03);
+    border-radius: 10px;
+    max-width: 864px;
+    margin: 60px 0px;
+}
+
+.hero-image img {
+    width: 100%;
+}
+
+.clients {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+    margin-top: 30px;
+}
+
+.clients img {
+    width: 150px;
+}
+
+.contact-img {
+    max-width: 170px;
+    margin-top: 60px;
+}

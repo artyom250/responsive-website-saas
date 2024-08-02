@@ -1,0 +1,163 @@
+.signin {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    padding: 60px 40px;
+}
+
+form {
+    border: 1px solid rgba(20, 20, 20, .1);
+    box-shadow: 2px 2px 26px rgba(20, 20, 20, .05);
+    background-color: #fffdf7;
+    color: #141414;
+    padding: 40px;
+    border-radius: 10px;
+    width: 470px;
+}
+
+form .logo {
+    max-width: 136px;
+    margin-bottom: 30px;
+}
+
+.accounts {
+    margin-top: 30px;
+}
+
+.accounts a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #141414;
+    border: 1px solid #dedcd7;
+    gap: 12px;
+    font-size: 14px;
+    padding: 12px;
+    border-radius: 5px;
+    transition: 0.3s;
+}
+
+.accounts a:hover {
+    color: grey;
+    transform: scale(1.05);
+}
+
+.accounts a:nth-child(2) {
+    margin-top: 15px;
+}
+
+.accounts a img {
+    width: 20px;
+}
+
+.lines {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+    margin: 25px 0px;
+}
+
+.line {
+    background-color: #dedcd7;
+    width: 100%;
+    height: 0.5px;
+}
+
+.inputs div:nth-child(2) {
+    margin-top: 20px;
+}
+
+.inputs input {
+    background: none;
+    outline: none;
+    border: 1px solid #dedcd7;
+    margin-top: 8px;
+    width: 100%;
+    border-radius: 8px;
+    padding: 12px;
+    transition: 0.3s;
+    font-size: 14px;
+}
+
+.inputs input:focus {
+    border: 1px solid #141414;
+}
+
+.inputs p {
+    font-size: 13px;
+}
+
+.submits {
+    margin-top: 25px;
+}
+
+.sub1 {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    max-width: 100%;
+}
+
+.check {
+    display: flex;
+    position: relative;
+}
+
+.check i {
+    color: white;
+    position: absolute;
+    pointer-events: none;
+    opacity: 0;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    transition: 0.3s;
+}
+
+.submits input {
+    -webkit-appearance: none;
+    cursor: pointer;
+    border: 1px solid #dedcd7;
+    padding: 10px;
+    border-radius: 3px;
+    transition: 0.3s;
+}
+
+.submits .check input[type="checkbox"]:checked {
+    background-color: #141414;
+    border: 1px solid #141414;
+}
+
+.submits .check input[type="checkbox"]:checked + i {
+    opacity: 1;
+}
+
+.submits a {
+    margin-left: auto;
+    color: #141414;
+    font-weight: 600;
+    font-size: 17px;
+}
+
+button[type="submit"] {
+    border: none;
+    cursor: pointer;
+    background-color: #141414;
+    color: white;
+    border-radius: 100px;
+    padding: 10px;
+    margin-top: 25px;
+    width: 100%;
+}
+
+.signup {
+    color: #141414;
+    margin-top: 30px;
+}
+
+.signup a {
+    color: #141414;
+    font-weight: 600;
+}

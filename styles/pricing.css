@@ -1,0 +1,131 @@
+@import url('https://fonts.googleapis.com/css2?family=Crimson+Text:ital,wght@0,400;0,600;0,700;1,400;1,600;1,700&display=swap');
+
+.buttons {
+    display: flex;
+    align-items: center;
+    width: fit-content;
+    border: 1px solid rgba(20, 20, 20, .1);
+    background: rgba(20, 20, 20, .03);
+    padding: 5px;
+    border-radius: 100px;
+}
+
+.pricing {
+    margin-top: 50px;
+}
+
+.pricing .buttons button {
+    color: #757472;
+    cursor: pointer;
+    background: none;
+    border: none;
+    font-size: 13px;
+    font-weight: 600;
+    padding: 10px 15px;
+    border-radius: 100px;
+    transition: 0.3s;
+}
+
+.pricing .buttons button.active {
+    background: #fffdf7;
+    color: black;
+    box-shadow: 0 0 20px rgba(20, 20, 20, .16);
+}
+
+.price-grid {
+    display: grid;
+    margin: auto;
+    max-width: 864px;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px;
+    margin-top: 30px;
+}
+
+.price-grid.tests {
+    margin-top: 50px;
+}
+
+.price {
+    font-family: "Crimson Text", serif;
+    font-weight: 600;
+    font-size: 46px;
+    margin: 10px 0px;
+}
+
+.price span {
+    font-size: 10px;
+    font-weight: initial;
+}
+
+.type {
+    color: #141414;
+}
+
+.pack-above {
+    background-color: #fffdf7;
+    padding: 10px;   
+    border-radius: 5px;
+    box-shadow: 2px 2px 26px rgba(20, 20, 20, .05);
+}
+
+.pack-box {
+    position: relative;
+    border: 1px solid rgba(20, 20, 20, .1);
+    border-radius: 5px;
+    padding: 15px;
+}
+
+.pack-box a {
+    background: none;
+    display: flex;
+    justify-content: center;
+    color: #141414;
+    border: 1px solid #141414;
+    width: 100%;
+    font-size: 13px;
+    font-weight: 600;
+    padding: 10px 15px;
+    border-radius: 100px;
+    transition: 0.3s;
+}
+
+.pack-box a:hover {
+    transform: scale(1.05);
+}
+
+.pack ul {
+    margin-top: 25px;
+    padding: 0px 10px;
+}
+
+.pack ul li {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.pack ul li:not(:nth-child(1)) {
+    margin-top: 13px;
+}
+
+.pack ul li i {
+    font-size: 28px;
+}
+
+.pack ul li span {
+    line-height: 1.4em;
+}
+
+.sale {
+    background-color: rgba(20, 20, 20, .05);
+    color: #141414;
+    position: absolute;
+    display: none;
+    margin: 15px;
+    border-radius: 3px;
+    top: 0%;
+    right: 0%;
+    font-size: 13px;
+    font-weight: 600;
+    padding: 5px;
+}
