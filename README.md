@@ -1,3 +1,5 @@
+![Example Image](./EarlyBird.png)
+
 ## 🔥 Responsive SASS Website
 
 * Uses fonts from Google's Web Font collection.
